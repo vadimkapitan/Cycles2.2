@@ -12,5 +12,10 @@ public class Main {
 
     public static void task1() {
         System.out.println("Задача 1");
+        double total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total * 1.01 + 29_000;
+            System.out.printf("Месяц: %d Сумма: %.2f \n", i, total);
+        }
     }
 }
